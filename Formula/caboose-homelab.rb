@@ -1,8 +1,8 @@
 class CabooseHomelab < Formula
   desc "Homelab SSO stack installer and service operator CLI"
   homepage "https://github.com/caboose-ai/caboose-ai.io"
-  url "https://github.com/caboose-ai/caboose-ai.io/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "36e08508ca07f6377b7401778ee395c19e7b58aa5664e5338fc46c891754281b"
+  url "https://github.com/caboose-ai/caboose-ai.io/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "35a44e328674004d86792261b973e442399e1e712680308d49e3a9a7f0ec8d91"
   license "Apache-2.0"
 
   depends_on "go" => :build
