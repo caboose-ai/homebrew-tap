@@ -1,8 +1,8 @@
 class CabooseHomelabMcp < Formula
   desc "MCP server for homelab service operations"
   homepage "https://github.com/caboose-ai/caboose-ai.io"
-  url "https://github.com/caboose-ai/caboose-ai.io/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "ec8ca86fb2aa527b3644b10c30cf83df0fd89551c6e84c387a9d77e25e30fa0b"
+  url "https://github.com/caboose-ai/caboose-ai.io/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "4366a879e1320f00f37e9aa35fcb46ebe5cab0b48cf93786772902e6c6a9241d"
   license "Apache-2.0"
 
   depends_on "go" => :build
