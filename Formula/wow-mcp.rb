@@ -5,8 +5,8 @@ class WowMcp < Formula
   # machine's GitHub credentials apply (gh auth setup-git). Switch to the tarball
   # form with a sha256 if the repository goes public.
   url "https://github.com/caboose-ai/wow-mcp.git",
-      tag:      "v0.1.0",
-      revision: "f39c6c78eb5544bdbbb5f449e96a5fb2e82f7233"
+      tag:      "v0.1.2",
+      revision: "3d982d552968867b05486a86d097ba4a2ad2587f"
   license "MIT"
   head "https://github.com/caboose-ai/wow-mcp.git", branch: "main"
 
