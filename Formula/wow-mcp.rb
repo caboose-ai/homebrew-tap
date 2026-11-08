@@ -1,12 +1,8 @@
 class WowMcp < Formula
   desc "MCP server for a local WoW install: addons, WTF config and SavedVariables"
   homepage "https://github.com/caboose-ai/wow-mcp"
-  # The source repository is private, so it is fetched over git and the installing
-  # machine's GitHub credentials apply (gh auth setup-git). Switch to the tarball
-  # form with a sha256 if the repository goes public.
-  url "https://github.com/caboose-ai/wow-mcp.git",
-      tag:      "v0.1.2",
-      revision: "3d982d552968867b05486a86d097ba4a2ad2587f"
+  url "https://github.com/caboose-ai/wow-mcp/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "9f233baaf26807004fa53bc408359ecf0f05f4e45cce97b02360219fe4a6786d"
   license "MIT"
   head "https://github.com/caboose-ai/wow-mcp.git", branch: "main"
 
